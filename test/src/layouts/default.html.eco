@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<head>
+   <%- @getBlock('meta').toHTML() %>
+</head>
+<body>
+   <%- @content %>
+</body>
+</html>
