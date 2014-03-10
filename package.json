@@ -16,7 +16,9 @@
     "travis": true,
     "npm": true,
     "gittip": "RobLoach",
-    "flattr": "2257574/RobLoach"
+    "flattr": "2257574/RobLoach",
+    "david": true,
+    "daviddev": true
   },
   "author": "Rob Loach (http://github.com/robloach)",
   "maintainers": [
@@ -30,16 +32,12 @@
     "url": "https://github.com/RobLoach/docpad-plugin-opengraph.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": "6.x"
+    "node": ">=0.4"
   },
-  "dependencies": {},
   "devDependencies": {
-    "coffee-script": "~1.6.2",
-    "joe": "~1.3.0",
-    "joe-reporter-console": "~1.2.1",
-    "chai": "~1.8.1",
-    "projectz": "~0.2.3"
+    "coffee-script": "~1.7.1",
+    "docpad": ">=6.37 <7",
+    "projectz": "~0.3.10"
   },
   "main": "./out/lib/opengraph.plugin.js",
   "directories": {
@@ -50,7 +48,9 @@
     "test": "node ./out/test/opengraph.test.js"
   },
   "peerDependencies": {
-    "docpad": "6"
+    "docpad": ">=6.37 <7"
   },
-  "contributors": []
+  "contributors": [
+    "Rob Loach (http://github.com/robloach)"
+  ]
 }
