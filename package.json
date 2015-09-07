@@ -44,7 +44,6 @@
     "lib": "./out/lib"
   },
   "scripts": {
-    "preinstall": "node ./cyclic.js",
     "test": "node ./out/test/opengraph.test.js"
   },
   "peerDependencies": {
